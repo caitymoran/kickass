@@ -1,0 +1,98 @@
+body {
+	font-family: helvetica;
+	margin-top: 50px;
+}
+
+
+.headline {
+	position: absolute;
+	overflow: auto;
+	top: 100px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.containersaying {
+	margin: 15px 50px;
+}
+.peeps {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18;
+}
+.name {
+	font-weight: bold;
+	font-style: normal;
+}
+
+.saying {
+	padding: 1em;
+	line-height: 1.5em;
+  	-moz-column-count: 2;
+  	-moz-column-gap: 1em;
+  	-webkit-column-count: 2;
+  	-webkit-column-gap: 1em;
+ 	 column-count: 2;
+ 	 column-gap: 1em;
+
+}
+
+.photo2 img {
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+.saying2 {
+	 font-family: times;
+	 font-style: italic;
+
+}
+
+.footcolumn {
+	float: left;
+	height: 250px;
+	padding: 40px;
+	font-size: 10;
+	line-height: 2em;
+	width: 50px;
+
+}
+.foothead {
+	text-transform: uppercase;
+}
+
+.footer {
+	background-color: #444;
+	color: #ccc;
+	height: 200;
+}
+
+.nav {
+	display: block;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	background-color: white;
+	width: 100%;
+	padding: 5 0;
+	z-index:1;
+}
+
+.navlogo {
+	position: fixed;
+	top: 15px;
+	left: 50px;
+	z-index:2;
+}
+
+
+.button {
+	text-transform: uppercase;
+	float: right;
+	padding: 10px 5px;
+	margin-right: 50;
+	z-index:3;
+
+}
