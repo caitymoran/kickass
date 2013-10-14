@@ -1,81 +1,18 @@
 body {
 	font-family: helvetica;
-	margin-top: 50px;
+	margin: 60px 0 0 0;
 }
-
-
-.headline {
-	position: absolute;
-	overflow: auto;
-	top: 100px;
+/* .body {
 	margin: 0 auto;
-	width: 100%;
-}
-
-.containersaying {
-	margin: 15px 50px;
-}
-.peeps {
-	text-align: center;
-	font-weight: bold;
-	font-size: 18;
-}
-.name {
-	font-weight: bold;
-	font-style: normal;
-}
-
-.saying {
-	padding: 1em;
-	line-height: 1.5em;
-  	-moz-column-count: 2;
-  	-moz-column-gap: 1em;
-  	-webkit-column-count: 2;
-  	-webkit-column-gap: 1em;
- 	 column-count: 2;
- 	 column-gap: 1em;
-
-}
-
-.photo2 img {
-	border-radius: 50%;
-	border: 1px solid #ccc;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-}
-.saying2 {
-	 font-family: times;
-	 font-style: italic;
-
-}
-
-.footcolumn {
-	float: left;
-	height: 250px;
-	padding: 40px;
-	font-size: 10;
-	line-height: 2em;
-	width: 50px;
-
-}
-.foothead {
-	text-transform: uppercase;
-}
-
-.footer {
-	background-color: #444;
-	color: #ccc;
-	height: 200;
-}
-
+	display: block;
+} */
 .nav {
 	display: block;
 	position: fixed;
 	top: 0;
 	height: 50px;
 	background-color: white;
-	width: 100%;
+	width: 892px;
 	padding: 5 0;
 	z-index:1;
 }
@@ -91,8 +28,106 @@ body {
 .button {
 	text-transform: uppercase;
 	float: right;
-	padding: 10px 5px;
+	padding: 17px 0px;
 	margin-right: 50;
 	z-index:3;
 
+}
+
+.confetti {
+	display: block;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.headline {
+	position: absolute;
+	overflow: auto;
+	top: 100px;
+	margin: 0 50px;
+	width: 100%;
+}
+
+.containersaying {
+	margin: 15px;
+	width: 892px;
+}
+.peeps {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.name {
+	font-weight: bold;
+	font-style: normal;
+	margin-left: 50px;
+	margin-top: 10px;
+	padding-top: 7px;
+	font-size: 12;
+	line-height: 1em;
+}
+
+.title {
+	margin-left: 50px;
+	color: #777;
+	font-size: 12;
+}
+
+.saying {
+	padding: 10;
+	line-height: 1.5em;
+	margin: 0 auto;
+	width: 580px;
+	height: 180px;
+	overflow: auto;
+}
+
+.dexter img {
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+.baretta img {
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+.saying2 {
+	 font-family: times;
+	 font-style: italic;
+
+}
+.container2 {
+	width: 250px;
+	float: left;
+	padding: 0 20px;
+
+}
+
+.footcolumn {
+	float: left;
+	height: 250px;
+	padding: 15px 75px;
+	font-size: 10;
+	line-height: 2.5em;
+	width: 50px;
+
+}
+.foothead {
+	text-transform: uppercase;
+	color: #777;
+}
+
+.footer {
+	clear: both;
+	background-color: #444;
+	color: #aaa;
+	height: 200;
+	width: 892px;
 }
